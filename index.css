@@ -34,32 +34,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-ul {
-  float: right;
-  list-style-type: none;
-  margin-top: 30px;
-}
-ul li {
-  display: inline-block;
-}
-
-ul li a {
-  text-decoration: none;
-  color: #fff;
-  padding: 5px 30px;
-  border: 1px solid transparent;
-}
-
-ul li.active a {
-  background-color: #fff;
-  color: #000;
-}
-
-ul li a:hover {
-  background-color: #fff;
-  color: black;
-  transition: 0.5s ease;
-}
 
 header {
   grid-area: head;
@@ -88,12 +62,14 @@ h1 {
 
 .button {
   position: absolute;
-  top: 95%;
+  top: 90%;
   left: 50%;
+
   transform: translate(-50%, -50%);
 }
 
 .btn {
+  position: relative;
   border: 2px solid #fff;
   padding: 10px 30px;
   color: #fff;
@@ -146,8 +122,30 @@ main p {
 @media only screen and (max-width: 500px) {
   /* For mobile phones: */
 
-  .main,
-  .sub {
+  .main {
     width: 100%;
   }
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4caf50;
+  color: white;
 }
