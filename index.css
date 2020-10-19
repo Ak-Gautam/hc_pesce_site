@@ -81,6 +81,7 @@ h1 {
   border: 2px solid #000;
   background-color: #fff;
   color: #000;
+  transition: 0.5s ease;
 }
 
 main h3 {
@@ -145,6 +146,7 @@ main p {
 .topnav a:hover {
   background-color: #ddd;
   color: black;
+  transition: 0.5s ease;
 }
 
 .topnav a.active {
