@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hack Club | PESCE</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div id="clublogo">
+            <img src="./01.jpg" alt="#">
+        </div>
+        <div class="center" id="titleCenter">
+            <h1>Hack Club<span> PESCE </span></h1>
+            <span class="line"></span>
+            <h3>Mandya</h3>
+        </div>
+        <div id="collegelogo">
+            <img src="./01.jpg" alt="#">
+        </div>
+    </header>
+    <nav>
+        <h1><a href="#">JOIN US!</a></h1>
+        <ul>
+            <!-- <li><a href="#">Home</a></li> -->
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="center" id="meeting">
+            <h3>Next meeting</h3>
+            <ul>
+                <li>Time:</li>
+                <li>Place:</li>
+                <li>Misc:</li>
+            </ul>
+        </div>
+        <div class="box">
+            <img id="image">
+        </div>
+        <div class="center" id="links">
+            <h3>Key Links</h3>
+            <ul>
+                <div id="left">
+                    <li><a href="https://repl.it/">Repl.it</a></li>
+                    <li><a href="https://hackclub.com/slack">Slack</a></li>
+                    <li><a href="https://hack.af/pack">Hack Pack</a></li>
+                </div>
+                <div id="right">
+                    <li><a href="https://events.hackclub.com">Global Events</a></li>
+                    <li><a href="https://workshops.hackclub.com">Workshops</a></li>
+                    <li><a href="https://hackclub.com/conduct/">Code of Conduct</a></li>
+                </div>
+            </ul>
+        </div>
+        <div class="center" id="project">
+            <h2 style="margin-block-start: 0em;">🚢 Project submission:</h2>
+            <div  class="form">
+                <input id="name" type="text" name="name" autocomplete="off" required>
+                <label for="name" class="label-name">
+                    <span class="cont-name">Name</span>
+                </label>
+            </div>
+            <div  class="form">
+                <input id="projects" type="text" name="projects" autocomplete="off" required>
+                <label for="projects" class="label-projects">
+                    <span class="cont-name">Link to Project</span>
+                </label>
+            </div>
+            <div>
+                <button class="submit" onclick="submitProject()">Ship</button>
+            </div>
+        </div>
+        <div class="center" id="support">
+            <p>
+                Supported by
+                <br>
+                <br>
+                <a href="https://hackclub.com" style="border-bottom: 0px;"><img src="https://assets.hackclub.com/icon-rounded.png" width = "20%" style="height: 40px; width: 40px;  margin-right: 20px;"></a>
+                <a href="https://stickermule.com" style="border-bottom: 0px;"><img src="https://2019.hongkong.wordcamp.org/files/2019/08/sticker_mule.png" width = "20%" style="height: 40px; width: 289px"></a>
+            </p>
+        </div>
+    </main>
+    <footer>
+        <div class="center" id="social">
+            <a class="btn" href="#">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a class="btn" href="https://instagram.com/hackclubpesce?igshid=inuzkb7fpv5u">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a class="btn" href="#">
+                <i class="fab fa-youtube"></i>
+            </a>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
