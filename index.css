@@ -1,0 +1,325 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+  text-align: center;
+  background: linear-gradient(90deg, rgba(7,3,79,1) 0%, rgba(139,14,230,0.9416141456582633) 0%, rgba(0,212,255,0.8939950980392157) 100%);
+}
+
+header {
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* position: sticky; */
+  /* top: 0px; */
+}
+
+#clublogo img {
+  border-radius: 20%;
+  display: inline-block;
+  width: auto;
+  height: 200px;
+  margin: 5px;
+}
+
+header div h1 {
+  color: gold;
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+
+header div h1 span {
+  font-weight: lighter;
+}
+
+.line {
+  border: 2px solid black;
+  display: block;
+}
+
+header div h3 {
+  color: aqua;
+  font-size: 2rem;
+}
+
+#collegelogo img {  
+  border-radius: 20%;
+  display: inline-block;
+  width: auto;
+  height: 200px;
+  margin: 5px;
+  
+}
+
+nav {
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+  position: sticky;
+  top: 0;
+  background: white;
+  min-height: 10vh;
+  margin: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10;
+}
+
+nav h1,
+nav ul {
+  font-size: 1.5rem;
+  flex: 1;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+}
+
+nav h1 a {
+  margin-left: -390px;
+}
+
+#meeting {
+  margin-top: 25px;
+  font-size: 1.5rem;
+  padding: 10px;
+}
+
+.box {
+  margin-top: 25px;
+  margin-left: 20%;
+  width:60%;
+  height: 70%;
+  box-shadow: 0 0 25px -3px rgba(0,0,0,0.4);
+}
+
+.box img{
+  width:100%;
+  height: 100%;
+}
+
+#links {
+  margin-top: 25px;
+  font-size: 1.5rem;
+  padding: 10px;
+}
+
+#links ul li a {
+  color: black;
+}
+
+#project {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form {
+  margin-top: 20px;
+  width: 20%;
+  left: center;
+  position: relative;
+  height: 50px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.form input {
+  background: transparent;
+  width: 100%;
+  height: 100%;
+  color: #f3f3f7;
+  padding-top: 20px;
+  border: none;
+  outline: none;
+}
+
+.form label {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 50%;
+  pointer-events: none;
+  border-bottom: 1px solid black;
+}
+
+.form label::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: -1px;
+  height: 100%;
+  width: 100%;
+  border-bottom: 1px solid #05193d;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+}
+
+.cont-name {
+  position: absolute;
+  bottom: 5px;
+  left: 0px;
+  transition: all 0.3s ease;
+}
+
+.form input:focus + .label-name .cont-name,
+.form input:valid + .label-name .cont-name{
+  transform: translateY(-150%);
+  font-size: 14px;
+  color: #0a0a0a;
+}
+
+.form input:focus + .label-name::after,
+.form input:valid + .label-name::after {
+  transform: translateX(0%);
+}
+
+.form input:focus + .label-projects .cont-name,
+.form input:valid + .label-projects .cont-name{
+  transform: translateY(-150%);
+  font-size: 14px;
+  color: #050505;
+}
+
+.form input:focus + .label-projects::after,
+.form input:valid + .label-projects::after {
+  transform: translateX(0%);
+}
+
+#project div button  {
+  margin-top: 30px;
+  background: none;
+  color: black;
+  width: 150px;
+  height: 50px;
+  border: 1px solid #77767910;
+  font-size: 18px;
+  border-radius: 4px;
+  transition: .6s;
+  overflow: hidden;
+}
+
+#project div button:focus {
+  outline: none;
+}
+
+#project div button:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 60px;
+  height: 100%;
+  left: 0;
+  top: 0;
+  opacity: .5s;
+  filter: blur(30px);
+  transform: translateX(-130px) skewX(-15deg);
+}
+
+#project div button:after {
+  content: "";
+  display: block;
+  position: absolute;
+  background: rgba(255,255,255,.2);
+  width: 30px;
+  left: 30px;
+  height: 100%;
+  top: 0;
+  opacity: 0;
+  filter: blur(30px);
+  transform: translate(-100px) scaleX(-15deg);
+}
+
+#project div button:hover {
+  background: #0c0c0ca2;
+  cursor: pointer;
+  color: white;
+}
+
+#project div button:hover::before {
+  transform: translate(300px) skewX(-15deg);
+  opacity: .6;
+  transition: .7s;
+}
+
+#project div button:hover::after {
+  transform: translate(300px) skewX(-15deg);
+  opacity: 1;
+  transition: .7s;
+}
+
+#support {
+  margin-top: 25px;
+}
+
+.btn {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background: #f1f1f1;
+  margin: 15px;
+  border-radius: 30%;
+  box-shadow: 0 5px 15px -5px #00000070;
+  color: #3498db;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+
+.btn i{
+  line-height: 40px;
+  font-size: 25px;
+  transition: 0.2s linear;
+}
+
+.btn:hover i{
+  transform: scale(1.3);
+  color: #f1f1f1;
+}
+
+.btn::before{
+  content: "";
+  position: absolute;
+  width: 120%;
+  height: 120%;
+  background: #3498db;
+  transform: rotate(45deg);
+  left: -110%;
+  top: 90%;
+}
+
+.btn:hover::before{
+  animation: aaa 0.7s 1;
+  top: -10%;
+  left: -10%;
+}
+
+@keyframes aaa {
+  0%{
+    left: -110%;
+    top: 90%;
+  }50%{
+    left: 10%;
+    top: -30%;
+  }100%{
+    top: -10%;
+    left: -10%;
+  }
+}
