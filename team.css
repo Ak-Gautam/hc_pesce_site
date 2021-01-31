@@ -119,7 +119,8 @@ main h2 {
     padding-left: 20%;
 }
 
-.pic img {
+.cont1 .pic img {
+    justify-content: right;
     width: auto;
     height: 200px;
 }
@@ -128,6 +129,10 @@ main h2 {
     padding-left: 40px;
     text-align: left;
     font-size: large;
+}
+
+.details p a {
+  color: rgb(245, 241, 241);
 }
 
 .btn {

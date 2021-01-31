@@ -126,6 +126,10 @@ nav h1 a {
   padding: 10px;
 }
 
+#left {
+  margin-top: 10px;
+}
+
 #links ul li a {
   color: black;
 }
@@ -331,32 +335,3 @@ nav h1 a {
     left: -10%;
   }
 }
-
-/* @media (max-width: 768px) {
-  #clublogo img {
-    border-radius: 20%;
-    display: inline-block;
-    width: auto;
-    height: 70px;
-    margin: 2.5px;
-  }
-
-  header div h1 {
-    color: gold;
-    font-size: 1rem;
-    font-weight: 300;
-  }
-
-  header div h3 {
-    color: aqua;
-    font-size: 1rem;
-  }
-
-  #collegelogo img {  
-    border-radius: 20%;
-    display: inline-block;
-    width: auto;
-    height: 70px;
-    margin: 2.5px;
-  }
-} */

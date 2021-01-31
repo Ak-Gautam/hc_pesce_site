@@ -1,4 +1,4 @@
-var images = ['gallery/01.png','gallery/02.png','gallery/03.png','gallery/04.png','gallery/05.jpg','gallery/06.png','gallery/07.png'];
+var images = ['gallery/01.png','gallery/02.png','gallery/03.png','gallery/04.png','gallery/05.jpg','gallery/06.png'];
 var i =0;
 
 function slideShow() {
