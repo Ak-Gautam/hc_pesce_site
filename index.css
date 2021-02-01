@@ -5,27 +5,23 @@
   list-style: none;
   text-decoration: none;
   font-family: 'Josefin Sans', sans-serif;
-  /* background: #1A1A1D; */
 }
 
 body {
   text-align: center;
-  background: #DC2424;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #4A569D, #DC2424);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #4A569D, #DC2424); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+  background: #DC2424;
+  background: -webkit-linear-gradient(to right, #4A569D, #DC2424);
+  background: linear-gradient(to right, #4A569D, #DC2424);
 
 }
 
 header {
-  background: #232526;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #232526;
+  background: -webkit-linear-gradient(to right, #414345, #232526);
+  background: linear-gradient(to right, #414345, #232526);
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* width: 100%; */
-  /* position: sticky; */
-  /* top: 0px; */
 }
 
 #clublogo img {
