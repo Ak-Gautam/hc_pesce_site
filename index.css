@@ -97,10 +97,15 @@ nav h1 a {
 }
 
 #meeting {
+  border: 1px solid black;
+  border-radius: 40px;
+  background-color: #faf1f1;
   margin-top: 25px;
   font-size: 1.5rem;
   padding: 10px;
-
+  padding: 30px;
+  width: 280px;
+  margin-left: 40%;
 }
 
 .box {
@@ -117,13 +122,19 @@ nav h1 a {
 }
 
 #links {
-  margin-top: 25px;
+  border: 1px solid black;
+  border-radius: 40px;
+  background-color: #faf1f1;
+  margin-top: 50px;
   font-size: 1.2rem;
-  padding: 10px;
+  padding: 30px;
+  width: 280px;
+  margin-left: 40%;
 }
 
 #left {
   margin-top: 10px;
+  padding: 5px;
 }
 
 #links ul li a {
