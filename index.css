@@ -100,23 +100,23 @@ nav h1 a {
 }
 
 
-ul li{
+nav ul li{
   display: inline-block;
 }
 
-ul li a{
+nav ul li a{
   text-decoration: none;
   color: #fff;
   padding: 0.2vw 1.8vw;
   border: 0.6vw solid transparent;
 }
 
-ul li.active a{
+nav ul li.active a{
   background-color: #fff;
   color: #000;
 }
 
-ul li a:hover{
+nav ul li a:hover{
   background-color: #fff;
   color: black;
   transition: 0.5s ease;
