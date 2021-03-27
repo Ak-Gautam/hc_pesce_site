@@ -80,7 +80,7 @@ nav ul {
   flex: 1;
 }
 
-/*
+
 
 nav ul {
   list-style: none;
@@ -93,7 +93,7 @@ nav a {
   text-decoration: none;
   margin-right: -100px;
 }
-*/
+
 nav h1 a {
   margin-left: -700px;
   color: white;
