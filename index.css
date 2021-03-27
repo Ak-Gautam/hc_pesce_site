@@ -89,12 +89,39 @@ nav ul {
 nav a {
   color: white;
   text-decoration: none;
-  margin-right: -200px;
+  margin-right: -100px;
 }
 
 nav h1 a {
   margin-left: -700px;
+  color: white;
+  text-decoration: none;
+  margin-right: -200px;
 }
+
+
+ul li{
+  display: inline-block;
+}
+
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 0.2vw 1.8vw;
+  border: 0.6vw solid transparent;
+}
+
+ul li.active a{
+  background-color: #fff;
+  color: #000;
+}
+
+ul li a:hover{
+  background-color: #fff;
+  color: black;
+  transition: 0.5s ease;
+}
+
 
 #meeting {
   border: 1px solid black;
