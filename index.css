@@ -80,6 +80,8 @@ nav ul {
   flex: 1;
 }
 
+/*
+
 nav ul {
   list-style: none;
   display: flex;
@@ -91,25 +93,24 @@ nav a {
   text-decoration: none;
   margin-right: -100px;
 }
-
+*/
 nav h1 a {
   margin-left: -700px;
   color: white;
   text-decoration: none;
   margin-right: -200px;
+
 }
-
-
 nav ul li{
   display: inline-block;
 }
-
 nav ul li a{
   text-decoration: none;
   color: #fff;
   padding: 0.2vw 1.8vw;
   border: 0.6vw solid transparent;
 }
+
 
 nav ul li.active a{
   background-color: #fff;
