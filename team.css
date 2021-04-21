@@ -142,29 +142,75 @@ main h2 {
   padding-top: 20px;
 }
 
-.cont1 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 40px;
-  padding-left: 20%;
+
+
+#team{
+	margin-top:100px;
+    height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    justify-content: center;
+	text-align:center;
+	color: black;
+}
+#team h3{
+    padding-top: 70px;
+    font-size: 1.6rem;
+}
+#team p{
+	padding: 10px;
+}
+
+.work{
+	display: flex; 
+	flex: 1;
+    flex-wrap: wrap;
+    justify-content:center;
+	align-items: center;
+	padding: 20px;
+}
+
+.card{
+	display: flex;
+	flex-direction: column;
+	margin: 20px;
+	width: 200px;
+	height:250px;
+	border-radius:12px;
+}
+
+.card img{
+	width: auto;
+	height: 80%;
+  align-self: center;
+	border-radius:10px 10px 0px 0px;
+}
+
+.card .work-content{
+	text-align: center;
+	padding: 10px 5px;
+	font-size: 1rem;
+	cursor: pointer;
+  text-decoration: #000;
+}
+
+.card a{ 
+	text-decoration: black;
+}
+
+.card .work-content:hover{ 
+    color: black;
+} 
+
+.card:hover{
+	box-shadow: 0 0 1.5rem rgb(177, 146, 146);
 }
 
 .pic img {
   width: auto;
   height: 200px;
 }
-
-.details {
-  padding-left: 60px;
-  text-align: left;
-  font-size: large;
-}
-
-.details p a {
-  color: rgb(245, 241, 241);
-}
-
 .btn {
   display: inline-block;
   width: 40px;
