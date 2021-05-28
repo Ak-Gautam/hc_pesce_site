@@ -361,7 +361,7 @@ nav ul li a:hover {
 	padding: 10px 5px;
 	font-size: 1rem;
 	cursor: pointer;
-  text-decoration: #000;
+  color: #000;
 }
 
 .card a{ 
