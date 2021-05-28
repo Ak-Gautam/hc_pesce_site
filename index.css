@@ -314,25 +314,27 @@ nav ul li a:hover {
       projects
 ──────────────────*/
 
-#projects{
+#projects {
 	margin-top:100px;
-    height: 100%;
+  height: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-    justify-content: center;
+  justify-content: center;
 	text-align:center;
 	color: black;
 }
-#projects h3{
-    padding-top: 70px;
+
+#projects h3 {
+  padding-top: 70px;
 }
-#projects p{
+
+#projects p {
 	font-size:1.2rem;
 	padding: 10px;
 }
 
-.work{
+.work {
 	display: flex; 
 	flex: 1;
     flex-wrap: wrap;
@@ -341,22 +343,22 @@ nav ul li a:hover {
 	padding: 20px;
 }
 
-.card{
+.card {
 	display: flex;
 	flex-direction: column;
 	margin: 20px;
 	width: 200px;
-	height:250px;
-	border-radius:12px;
+	height: 250px;
+	border-radius: 12px;
 }
 
-.card img{
+.card img {
 	width: 100%;
-	height:70%;
-	border-radius:10px 10px 0px 0px;
+	height: 70%;
+	border-radius: 10px 10px 0px 0px;
 }
 
-.card .work-content{
+.card .work-content {
 	text-align: center;
 	padding: 10px 5px;
 	font-size: 1rem;
@@ -364,15 +366,15 @@ nav ul li a:hover {
   color: #000;
 }
 
-.card a{ 
+.card a { 
 	text-decoration: black;
 }
 
-.card .work-content:hover{ 
-    color: black;
+.card .work-content:hover { 
+  color: black;
 } 
 
-.card:hover{
+.card:hover {
 	box-shadow: 0 0 1.5rem rgb(177, 146, 146);
 }
 
