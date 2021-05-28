@@ -131,6 +131,15 @@ nav ul li a:hover {
   transition: 0.5s ease;
 }
 
+main p {
+  margin: 5px;
+  padding: 50px;
+	font-size: 1.5rem;
+	color: white;
+	text-align: center;
+  font-family:'Courier New', Courier, monospace;
+}
+
 
 .btn {
   display: inline-block;
@@ -174,12 +183,6 @@ nav ul li a:hover {
   left: -10%;
 }
 
-main p{
-    margin: 5px;
-	font-size:1.2rem;
-	color: white;
-	text-align:center;
-
 @keyframes aaa {
   0%{
     left: -110%;
@@ -191,5 +194,4 @@ main p{
     top: -10%;
     left: -10%;
   }
-}
 }
