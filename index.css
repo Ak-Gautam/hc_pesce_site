@@ -432,3 +432,12 @@ nav ul li a:hover {
     left: -10%;
   }
 }
+
+/* @media (max-width: 425px) and (max-width: 600px) {
+  header {
+    background: #4E4E50;
+    height: 50px;
+    width: 100%;
+    display: none;
+  }
+} */
