@@ -1,3 +1,4 @@
 ### Names for the GIT event
 
-- Akshay Kumar Gauatm
+- Akshay Kumar Gauatm.  
+- Sneha .R
